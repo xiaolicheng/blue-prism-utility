@@ -15,7 +15,7 @@ Overall, the asset is designed with a generic approach so that it can be expande
 This asset is designed for Blue Prism v6.5.
 
 # Installation
-1. Download or clone this repository
+1. Download this repository from the Releases page: https://github.com/blue-prism/blue-prism-utility/releases
 2. Launch Blue Prism and select `File > Import`
 3. Select the downloaded .bprelease file and import it into Blue Prism
 
