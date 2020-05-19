@@ -13,6 +13,7 @@ Overall, the asset is designed with a generic approach so that it can be expande
 
 # Version Support
 This asset is designed for Blue Prism v6.5 and Blue Prism v6.6.
+For compatibility with other versions of Blue Prism, please see the *Troubleshooting* section below.
 
 # Installation
 1. Download this repository from the Releases page: https://github.com/blue-prism/blue-prism-utility/releases
@@ -38,6 +39,13 @@ As additional Blue Prism screens are automated, it is important that each screen
 
 ## Processes
 The naming convention for a process is: `<Application Name vx.x> - <Process Name>`. The `<Process Name>` should begin with a verb or an action word and describe the activity that the process executes (eg. `Blue Prism v6.5 - Get Credential`).
+
+# Troubleshooting
+**Issue**: *In other versions of Blue Prism, the VBOs fail to identify screen elements.*
+
+As the Blue Prism UI changes from version to version, a screen element may no longer be identifiable by the VBOs. In this case, the screen element simply needs to be re-spied. Open the (shared) Application Modeller for any of the VBOs and re-spy the missing element.
+
+For information on the Application Modeller and how to spy elements, please refer to the **Blue Prism Foundation** course in **Blue Prism University** (https://portal.blueprism.com/university). **Section 6 - Object Studio** covers the Application Modeller and how to spy elements.
 
 # Support
 To report an issue with this asset, please submit a new issue on the Issues tab: https://github.com/blue-prism/blue-prism-utility/issues
