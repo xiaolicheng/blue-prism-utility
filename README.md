@@ -22,12 +22,13 @@ For compatibility with other versions of Blue Prism, please see the *Troubleshoo
 
 # Contribute
 To contribute to the development of this asset, follow these steps:
-1. Clone or fork this repository
+1. Fork this repository
 2. Import the .bprelease file into Blue Prism
 3. Add functionality to the asset
 4. Create an updated .bprelease file
 5. Update the User Integration Guide document to include the new functionality
-5. Submit a pull request to this repository that includes all changed files
+6. Submit a pull request to this repository that includes all changed files
+7. The pull request will be reviewed and, if approved, merged into the appropriate branch.
 
 # Architecture
 ## Objects
